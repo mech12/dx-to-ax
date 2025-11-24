@@ -125,13 +125,6 @@ jupyter lab sample.ipynb
 
 **노트북:** [notebooks/iris_knn_analysis.ipynb](notebooks/iris_knn_analysis.ipynb)
 
-**필요한 라이브러리:**
-
-```bash
-conda activate myenv
-conda install numpy pandas matplotlib seaborn scikit-learn -y
-```
-
 ### 아이리스 데이터 분석 (로지스틱 회귀)
 
 로지스틱 회귀를 사용한 아이리스 품종 분류 예제입니다.
@@ -152,8 +145,11 @@ conda install numpy pandas matplotlib seaborn scikit-learn -y
 
 ```bash
 conda activate myenv
-conda install numpy pandas matplotlib seaborn scikit-learn tensorflow -y
+conda install numpy pandas matplotlib seaborn scikit-learn tensorflow pillow -y
+conda install google-genai
+conda install -c conda-forge google-genai 
 
+pip install konlpy
 ```
 
 ## TensorFlow 버전 확인
